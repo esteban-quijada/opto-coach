@@ -18,7 +18,7 @@ Most students fail at encoding and retrieval because they rely on passive review
 
 Before studying any details, extract the **organizational schema** of the material.
 
-**Why it matters:** Many learners cannot encode isolated facts effectively. They need the big picture first. Without a framework, details have nowhere to attach and fall away. This is supported by research on structure building (Gernsbacher, 1997) — high structure builders naturally organize information, while low structure builders need to be taught to do it explicitly.
+**Why it matters:** Many learners cannot encode isolated facts effectively. They need the big picture first. Without a framework, details have nowhere to attach and fall away. This is supported by research on structure building (Gernsbacher, 1997) — high structure builders naturally organize information, while low structure builders need to be taught to do it explicitly. Frameworking also works with working memory constraints — Miller (1956) showed we can hold roughly 7 (plus or minus 2) items in short-term memory. A framework lets you chunk related details under fewer top-level categories, effectively compressing what you need to hold in mind at any one time.
 
 **How to apply:**
 - Before touching any cards in a subject/unit, build a structural outline: What are the major categories? How do they relate? What's the hierarchy?
@@ -42,11 +42,13 @@ This aligns with the levels-of-processing framework (Craik & Lockhart, 1972) —
 
 The single most evidence-backed study technique. Over 100 years of research on the testing effect.
 
+**Why timing matters — the Forgetting Curve:** Ebbinghaus (1885) demonstrated that memory decays exponentially after initial learning — roughly 70% is lost within 24 hours without intervention. Each successful retrieval attempt resets and flattens the curve, making the memory progressively more durable. This is why the protocol below emphasizes multiple retrievals within the first 48 hours: you're catching the memory before it falls off the cliff and reinforcing it at the steepest point of decay.
+
 **The Protocol:**
-1. **Choose material** — start small (one concept cluster, ~5-10 cards)
+1. **Choose material** — start small (one concept cluster, ~5-10 cards). This aligns with working memory limits — Miller (1956) showed short-term memory holds roughly 7 (plus or minus 2) items. Keeping chunks small prevents cognitive overload during initial encoding.
 2. **Attempt blind recall** — close everything, write/say what you remember. Allow failure.
 3. **Self-check** — compare your recall to the source. Note gaps.
-4. **Repeat 4x in 48 hours** — with spacing between attempts
+4. **Repeat 4x in 48 hours** — with spacing between attempts. Each retrieval flattens the forgetting curve further.
 
 **Critical rules:**
 - Retrieval is not review. Looking at a card and thinking "I know that" is recognition, not retrieval.
@@ -129,6 +131,8 @@ For boards-style questions (clinical vignettes):
 
 - **Testing Effect:** Roediger & Karpicke (2006) — retrieval practice produces more learning than restudying
 - **Desirable Difficulties:** Bjork & Bjork (2011) — conditions that make learning harder in the short term (spacing, interleaving, retrieval) improve long-term retention
+- **Forgetting Curve:** Ebbinghaus (1885) — memory decays exponentially after learning; ~70% lost within 24 hours without retrieval
+- **Working Memory Capacity:** Miller (1956) — short-term memory holds roughly 7 (plus or minus 2) items, necessitating chunking and frameworking
 - **Spacing Effect:** Ebbinghaus (1885), Cepeda et al. (2006) — distributed practice beats massed practice
 - **Interleaving:** Rohrer & Taylor (2007) — mixing problem types improves discrimination and transfer
 - **Structure Building:** Gernsbacher (1997) — individual differences in ability to build coherent mental structures from information

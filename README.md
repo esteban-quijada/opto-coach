@@ -195,6 +195,8 @@ Edit `method/study-methodology.md` to add techniques, adjust protocols, or incor
 
 This system is built on established cognitive science, not study tips. Key references:
 
+- Ebbinghaus (1885) — the forgetting curve; memory decays ~70% within 24 hours without retrieval
+- Miller (1956) — working memory holds 7 (±2) items; basis for chunking and round sizing
 - Roediger & Karpicke (2006) — retrieval practice produces more learning than restudying
 - Bjork & Bjork (2011) — desirable difficulties improve long-term retention
 - Cepeda et al. (2006) — distributed practice beats massed practice
