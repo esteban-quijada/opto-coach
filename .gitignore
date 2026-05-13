@@ -1,0 +1,9 @@
+# User-supplied study content
+cards/*.md
+
+# Source Anki files
+*.apkg
+
+# Python
+__pycache__/
+*.pyc
