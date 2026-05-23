@@ -99,10 +99,28 @@ The system works with content from any optometry study source:
 
 ## How to Use
 
-Once inside the Claude session, you can interact naturally or use these commands:
+### First Time: Setup
+
+When you first start a session, say **`start`**. This triggers the diagnostic evaluation — the coach assesses your learning process (not your knowledge) across five areas: structure building, retrieval vs. recognition, encoding ability, study habits, and metacognitive awareness. Based on the results, it will:
+
+1. Build your **learning profile** (saved to `profile/learning-profile.md`, not tracked by git)
+2. Create a **study timeline** based on your exam date and current level
+3. Generate your first **session plan** based on subject priority and your profile
+
+This only happens once. After that, your profile persists across sessions and is updated as you progress.
+
+### Returning: Continue
+
+When you come back for a new session, say **`continue`**. The coach reads your learning profile, reviews where you left off (topics covered, weak areas, session history), and picks up accordingly — recommending what to work on next based on your progress and the spacing protocol.
+
+### Commands
+
+Once inside a session, you can interact naturally or use these commands:
 
 | Command | What It Does |
 |---|---|
+| `start` | First-time setup: diagnostic evaluation, learning profile, study timeline |
+| `continue` | Resume studying from where you left off using your profile |
 | `quiz me on [topic]` | Starts a retrieval practice round on a subject or unit |
 | `framework [topic]` | Builds the organizational skeleton before drilling |
 | `interleave [topic A] and [topic B]` | Mixed drilling across two subjects |
@@ -113,7 +131,36 @@ Once inside the Claude session, you can interact naturally or use these commands
 | `session plan` | Gets a recommended study plan based on subject priority |
 | `status` | Shows what's been covered and what needs work |
 
-### Example Session
+### Example First Session
+
+```
+You: start
+
+Coach: Before we study anything, I need to evaluate how you learn.
+       I'm going to give you 10 conditions — sort them into groups
+       however makes sense to you...
+
+[diagnostic evaluation runs, profile is built]
+
+Coach: Here's your learning profile. Your structure building is weak
+       but your metacognitive awareness is strong. Here's your
+       study timeline and what we should hit first...
+```
+
+### Example Returning Session
+
+```
+You: continue
+
+Coach: Welcome back. Last session we built the retinal vascular
+       disease framework — you got CRAO mechanism down but we
+       didn't finish CRVO. Your weak areas are glaucoma
+       categorization and pupillary pathways. I recommend we
+       finish the retinal vascular framework, then do a card
+       drill on what we covered last time. Ready?
+```
+
+### Example Study Session
 
 ```
 You: quiz me on ocular pharmacology unit 1
