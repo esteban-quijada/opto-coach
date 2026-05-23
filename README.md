@@ -16,13 +16,15 @@ The study methodology is built on decades of cognitive science research and appl
 
 The full methodology reference with citations is in `method/study-methodology.md`.
 
-## Prerequisites
+## Getting Started
 
-- [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed and authenticated
-- A terminal (macOS, Linux, or WSL on Windows)
-- Your own study content (see [Loading Your Cards](#loading-your-cards) below)
+There are two ways to use Opto-Coach: through **Claude Code** (CLI/desktop) or **claude.ai** (browser). Both use the same methodology and content — pick whichever fits your workflow.
 
-## Quick Start
+### Option A: Claude Code (CLI)
+
+Best if you already use Claude Code or prefer a terminal-based workflow.
+
+**Prerequisites:** [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed and authenticated, a terminal (macOS, Linux, or WSL on Windows)
 
 ```bash
 git clone <repo-url>
@@ -36,6 +38,21 @@ claude
 ```
 
 Claude reads the `CLAUDE.md` prompt automatically and becomes your study coach.
+
+### Option B: Claude.ai (Browser)
+
+Best if you want to study from any device without installing anything.
+
+1. Go to [claude.ai](https://claude.ai) and open **Projects** (left sidebar)
+2. Create a new project (e.g., "NBEO Study Coach")
+3. In the project's **Custom Instructions**, paste the contents of `CLAUDE.md` from this repo
+4. Under **Project Knowledge**, upload these files:
+   - `method/study-methodology.md`
+   - `reference/nbeo-part1-blueprint.md`
+   - Your card files (see [Loading Your Cards](#loading-your-cards) below) — either upload the `.md` files from `cards/`, or paste/upload your own content directly
+5. Start a new conversation inside the project and begin studying
+
+**Note:** If you're using the Anki extraction script, run it locally first (`python3 extract-cards.py path/to/deck.apkg`), then upload the generated `.md` files from `cards/` as project knowledge.
 
 ## Loading Your Cards
 
@@ -180,7 +197,7 @@ opto-coach/
 
 ### Adjusting the Coach
 
-Edit `CLAUDE.md` to change:
+Edit `CLAUDE.md` (CLI) or update the project's Custom Instructions (claude.ai) to change:
 - Session length and round sizes
 - Interleaving frequency
 - How strict the coach is about retrieval-only
@@ -189,7 +206,7 @@ Edit `CLAUDE.md` to change:
 
 ### Updating the Methodology
 
-Edit `method/study-methodology.md` to add techniques, adjust protocols, or incorporate methods from courses you've taken.
+Edit `method/study-methodology.md` (CLI) or re-upload it to project knowledge (claude.ai) to add techniques, adjust protocols, or incorporate methods from courses you've taken.
 
 ## Research Foundation
 
