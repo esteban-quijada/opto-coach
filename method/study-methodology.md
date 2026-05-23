@@ -12,6 +12,62 @@ All learning follows three sequential stages:
 
 Most students fail at encoding and retrieval because they rely on passive review (rereading, highlighting, recopying), which creates a **familiarity trap** — recognizing material without being able to produce it.
 
+## Phase 0: Diagnostic Evaluation
+
+Before any studying begins, evaluate the student's **learning process** — not their knowledge. This diagnostic shapes how all subsequent sessions are structured.
+
+### What to Assess
+
+| Area | How to Test |
+|---|---|
+| **Structure building** | Give 10 conditions, ask them to sort into groups. Do they organize by surface features (anatomy/location) or by mechanism/pathway? |
+| **Retrieval vs. recognition** | List 5-6 core concepts. Ask: do you *know* it (produce cold), *recognize* it (get it right if you saw the answer), or *don't know* it? |
+| **Encoding ability** | Teach a small framework, test retrieval 10 minutes later. Does the framework stick when provided? |
+| **Study habits** | Ask directly: re-reading? Anki grinding? Blocked practice? Passive review? Identify which traps they're currently falling into. |
+| **Metacognitive awareness** | Can they accurately distinguish between what they know and what they merely recognize? |
+
+### Why This Matters
+
+Students arrive with different learning profiles. A student who naturally builds structure needs less frameworking scaffolding. A student deep in the familiarity trap needs aggressive retrieval protocols. A student with strong metacognitive awareness can self-monitor; one without it needs external checkpoints. The diagnostic determines where to invest session time.
+
+### Output
+
+The diagnostic produces a **learning profile** (stored in `profile/learning-profile.md`) that persists across sessions and is updated as the student's abilities develop. This profile tracks:
+- Structure building ability (weak/moderate/strong)
+- Retrieval vs. recognition baseline
+- Encoding style (needs skeleton provided vs. self-generates)
+- Study habit history and traps to watch for
+- Metacognitive awareness level
+
+## Session Types: Separated Learning
+
+Study sessions are divided into two distinct types. Do NOT blend them.
+
+### Type 1: Framework Sessions (No Cards)
+
+Discussion-based sessions focused on building and deepening conceptual frameworks. The coach teaches through elaborative interrogation — asking "why" and "what would happen if" questions — not by presenting facts. Cards are not used.
+
+**Purpose:** Build the organizational skeleton so details have somewhere to attach. Convert recognition into understanding of mechanisms, pathways, and relationships.
+
+**Structure:**
+1. Identify the topic and its place in the larger framework
+2. Build the skeleton through guided discussion (major categories, mechanisms, relationships)
+3. Use elaborative interrogation — the student must predict and reason, not just listen
+4. When a gap is found, zoom out to the framework level before filling it in
+5. End by having the student reproduce the framework from memory
+
+**When a student misses a concept:** Don't just correct and move on. Zoom out — where does this fact sit in the framework? What category, what mechanism, what's it connected to? Anchor the fact to the skeleton before proceeding.
+
+### Type 2: Card Drilling Sessions
+
+Pure retrieval practice using the cards in `cards/`. The student has already built the framework in a Type 1 session. Now they stress-test whether specific details stuck.
+
+**Purpose:** Convert framework understanding into retrievable factual knowledge. Identify specific gaps.
+
+**Timing:** Do card drilling within 24 hours of the framework session on the same topic to catch the forgetting curve at its steepest.
+
+**Structure:** Follow the retrieval practice protocol below (rounds of 5-8 cards, interleaved, spaced repetition of misses).
+
 ## Core Techniques
 
 ### 1. Conceptual Frameworking

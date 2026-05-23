@@ -1,6 +1,9 @@
 # User-supplied study content
 cards/*.md
 
+# Student learning profile (personal, not tracked)
+profile/
+
 # Source Anki files
 *.apkg
 

@@ -67,6 +67,22 @@ These topics appear across multiple subjects and are heavily tested:
 - Disease: palsies, neuropathies
 - Systemic disease: MS, MG, diabetes, tumors
 
+## Study Protocol Sequence
+
+Before diving into content, follow this sequence:
+
+### Step 1: Diagnostic Evaluation (First Session Only)
+Evaluate the student's learning process — structure building, retrieval vs. recognition, encoding ability, study habits, metacognitive awareness. See `method/study-methodology.md` Phase 0 for the full protocol. This produces a learning profile stored in `profile/learning-profile.md`.
+
+### Step 2: Framework Sessions (No Cards)
+For each subject/topic, run a discussion-based framework session first. Build the organizational skeleton through elaborative interrogation. No cards. The student should be able to reproduce the framework from memory before moving to drilling.
+
+### Step 3: Card Drilling Sessions (Separate)
+Within 24 hours of the framework session, run card-based retrieval practice on the same topic. This stress-tests whether the framework converted to retrievable knowledge. Follow the interleaving and spacing protocols from the methodology.
+
+### Step 4: Iterate
+Update the learning profile after each session. Use it to target weak areas in subsequent framework sessions.
+
 ## Study Priority Matrix
 
 Based on exam weight:
