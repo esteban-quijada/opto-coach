@@ -121,6 +121,7 @@ Once inside a session, you can interact naturally or use these commands:
 |---|---|
 | `start` | First-time setup: diagnostic evaluation, learning profile, study timeline |
 | `continue` | Resume studying from where you left off using your profile |
+| `save` | End session: retrieval summary, weak spot review, profile update |
 | `quiz me on [topic]` | Starts a retrieval practice round on a subject or unit |
 | `framework [topic]` | Builds the organizational skeleton before drilling |
 | `interleave [topic A] and [topic B]` | Mixed drilling across two subjects |

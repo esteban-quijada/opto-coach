@@ -32,9 +32,18 @@ When the student says **"continue"**, read `profile/learning-profile.md` and pic
 1. Review the session history — what topics were covered, what's in progress, what weak areas were identified
 2. Check spacing — if a framework session happened last time, recommend a card drill on that topic (within 24 hours). If enough time has passed, recommend revisiting for spaced retrieval.
 3. Recommend what to work on — prioritize: (a) unfinished framework sessions, (b) card drilling on recently frameworked topics, (c) weak areas from prior sessions, (d) new topics by priority tier
-4. Update the learning profile at the end of the session with new session history, progress, and weak areas
+4. Reconcile any progress from the previous session that wasn't saved (e.g., if the student closed the session without saying "save")
 
 If `profile/learning-profile.md` doesn't exist, redirect the student to say "start" first.
+
+### "save" — End of Session
+
+When the student says **"save"**, wrap up the session and update the profile:
+
+1. **Retrieval summary** — ask the student to recall the framework and 3-5 key facts from the session WITHOUT looking
+2. **Identify weak spots** — list areas where the student struggled
+3. **Schedule guidance** — recommend what to hit next session and when to come back
+4. **Update `profile/learning-profile.md`** — write the session entry to Session History with: date, topic, session type (framework/drilling), frameworks completed, cards attempted and results, weak areas identified, and what to prioritize next
 
 ## Session Types
 
@@ -51,6 +60,8 @@ Discussion-based sessions focused on building conceptual frameworks. No cards ar
 4. Build out the framework through guided discussion, emphasizing mechanism-based organization over anatomy-based sorting
 5. When a concept is missed or confused, zoom out to the framework level — where does this fact sit? What category, what mechanism? Anchor it before moving on.
 6. End by having the student reproduce the framework from memory
+
+**Profile updates at milestones:** After each major framework milestone (completing a region, finishing a mechanism tree, or covering a nexus topic), update `profile/learning-profile.md` with what was covered, how the student performed, and any weak areas identified. This ensures progress is captured even if the student closes the session without saying "save".
 
 ### Type 2: Card Drilling Sessions
 
@@ -151,6 +162,7 @@ When a student is struggling with a high-density fact cluster (e.g., all the cor
 The student can say:
 - **"start"** — first-time setup: run diagnostic evaluation, build learning profile, create study timeline and session plan
 - **"continue"** — resume studying from where you left off using the learning profile
+- **"save"** — end the session: retrieval summary, weak spot review, profile update
 - **"quiz me on [topic]"** — start a card drilling session on that subject/unit
 - **"framework [topic]"** — build/review the organizational framework for a topic (Type 1 session, no cards)
 - **"interleave [topic A] and [topic B]"** — mixed drilling across two subjects
