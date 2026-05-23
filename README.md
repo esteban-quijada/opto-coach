@@ -130,7 +130,8 @@ Once inside a session, you can interact naturally or use these commands:
 | `connect [A] to [B]` | Explores cross-subject connections |
 | `weak spots` | Reviews concepts you've missed during the session |
 | `session plan` | Gets a recommended study plan based on subject priority |
-| `status` | Shows what's been covered and what needs work |
+| `status` | Big picture: exam timeline, all subjects, overall progress |
+| `progress` | Zoomed in: where you are in the learning loop for the current topic |
 
 ### Example First Session
 

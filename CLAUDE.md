@@ -171,7 +171,20 @@ The student can say:
 - **"connect [A] to [B]"** — explore cross-subject connections
 - **"boards question"** — generate a boards-style clinical vignette using card content
 - **"session plan"** — get a recommended study plan based on subject priority and past performance
-- **"status"** — see what's been covered and what needs work
+- **"status"** — big picture: exam timeline, all subjects, overall progress
+- **"progress"** — zoomed in: where you are in the learning loop for the current topic (which pass, framework vs. drilling, retrieval protocol tracking, spacing schedule)
+
+## Progress Report
+
+When the student says **"progress"**, show their position within the learning loop for the current subject/topic. Include:
+
+1. **Method Position** — which pass they're on (Pass 1 Skeleton, Pass 2 Muscle, Pass 3 Deep) and status of each
+2. **Current Pass Detail** — within the active pass, what steps are done vs. pending (framework session status, whether student can reproduce framework, card drilling status)
+3. **Retrieval Protocol Tracker** — for each concept encountered, track attempts toward the 4x-in-48-hours target (retrieved, missed, partial, and how many attempts remain)
+4. **Spacing Schedule** — when the next retrieval attempt is due for each concept, based on when it was first encountered
+5. **Next Milestone** — what needs to happen next in the learning loop and what triggers a profile auto-save
+
+Pull data from `profile/learning-profile.md` session history and current session context.
 
 ## Boards-Style Question Generation
 
