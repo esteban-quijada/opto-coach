@@ -59,7 +59,38 @@ Discussion-based sessions focused on building conceptual frameworks. No cards ar
 3. If they can't, walk them through the organizational skeleton
 4. Build out the framework through guided discussion, emphasizing mechanism-based organization over anatomy-based sorting
 5. When a concept is missed or confused, zoom out to the framework level — where does this fact sit? What category, what mechanism? Anchor it before moving on.
-6. End by having the student reproduce the framework from memory
+6. Once the framework is built through discussion, present it as a **visual tree diagram** so the student has a clean reference to study before retrieval
+7. Run the **retrieve-score-fix-retrieve loop** (see below)
+
+**Visual tree diagrams:** After building the framework through discussion, present the completed framework as an indented tree structure. This gives the student a clean, scannable reference. Example:
+```
+RETINAL VASCULAR DISEASE
+│
+├── Blood Supply
+│   ├── Central retinal artery → inner retina
+│   └── Choroidal circulation → outer retina/photoreceptors
+│
+├── Blocked (occlusion)
+│   ├── CRAO → pale/white retina, cherry red spot
+│   └── CRVO → "blood and thunder," flame hemorrhages
+│
+├── Leak (permeability)
+│   └── DR, Coats'
+│
+└── Grow (neovascularization)
+    └── PDR, CRVO (ischemic type)
+```
+
+**Retrieve-score-fix-retrieve loop:** After presenting the tree, the student closes everything and attempts to reproduce the framework from memory. Run multiple attempts:
+
+1. **Attempt** — student dumps everything they can recall
+2. **Score** — use structured scoring with symbols:
+   - ✓ = correct
+   - ✗ = wrong or missing
+   - ~ = partial (right idea, wrong detail)
+3. **Encoding hooks** — AFTER the first failed attempt, offer mnemonics, visual anchors, or memory stories to fix specific gaps. Do NOT front-load mnemonics before the student has tried. The attempt reveals which facts actually need hooks.
+4. **Repeat** — student attempts again with the fixes in mind. Continue until the framework is reproduced correctly or near-correctly (typically 2-4 attempts).
+5. **Track trajectory** — after each attempt, briefly note the improvement: "Attempt 1: walls jumbled, V1/V2 swapped. Attempt 2: walls fixed, V1/V2 still swapped. Attempt 3: clean."
 
 **Profile updates at milestones:** After each major framework milestone (completing a region, finishing a mechanism tree, or covering a nexus topic), update `profile/learning-profile.md` with what was covered, how the student performed, and any weak areas identified. This ensures progress is captured even if the student closes the session without saying "save".
 
@@ -87,27 +118,15 @@ Quickly verify the framework is still accessible:
 
 Use cards from the relevant `cards/*.md` files. Follow this protocol:
 
-1. Ask the student: "In 30 seconds, tell me the big picture of [topic]. What are the major categories and how do they relate?"
-2. If they can't, walk them through the organizational skeleton using the cards as source material
-3. Draw out the hierarchy: Subject -> Major categories -> Subcategories -> Details hang here
-4. Only move to drilling once the student can articulate the framework
-
-Example for Ocular Anatomy Unit 1:
-> "Before we drill eyelid anatomy, let's build the framework. The eyelid has layers — can you name them from superficial to deep? And then we have three gland systems. And then the lacrimal drainage pathway. That's the skeleton. Now we'll fill it in."
-
-### Phase 2: Retrieval Practice Rounds
-
-Use cards from the relevant `cards/*.md` files. Follow this protocol:
-
 **Round structure (5-8 cards per round):**
 
 1. **Present the question** — show only the question, NEVER the answer
 2. **Wait for the student's attempt** — they must try to recall. Silence/struggling is expected and productive
-3. **After their attempt, reveal and compare:**
-   - If correct: brief confirmation, note any nuance they missed
-   - If wrong: show the correct answer, explain WHY (connect to framework), ask them to restate it
-   - If partial: acknowledge what they got, fill in the gap, connect to framework
-4. **Tag the result mentally:** retrieved, partial, or missed
+3. **After their attempt, score and compare** using ✓ (correct), ✗ (wrong/missing), ~ (partial):
+   - ✓ correct: brief confirmation, note any nuance they missed
+   - ✗ wrong: show the correct answer, explain WHY (connect to framework), ask them to restate it
+   - ~ partial: acknowledge what they got, fill in the gap, connect to framework
+4. **Tag the result:** retrieved, partial, or missed
 
 **Interleaving rule:** After every 5-8 cards on the primary topic, insert 2-3 cards from a DIFFERENT subject. Pull these from Tier 1-2 subjects in the blueprint. This prevents blocked practice and strengthens cross-subject connections.
 

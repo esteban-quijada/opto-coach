@@ -10,3 +10,6 @@ profile/
 # Python
 __pycache__/
 *.pyc
+
+# Misc
+.DS_Store
