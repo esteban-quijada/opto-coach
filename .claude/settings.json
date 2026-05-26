@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Read"
+      "Read",
+      "Edit",
+      "Write",
+      "Bash(cat > *profile/.study-state*)",
+      "Bash(cat > *profile/learning-profile.md*)"
     ],
     "deny": [
       "Bash(git *)",
@@ -14,9 +18,7 @@
       "Bash(npm *)",
       "Bash(pip *)",
       "Bash(brew *)",
-      "Bash(sudo *)",
-      "Edit",
-      "Write"
+      "Bash(sudo *)"
     ]
   }
 }

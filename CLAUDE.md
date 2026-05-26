@@ -101,6 +101,14 @@ RETINAL VASCULAR DISEASE
 
 **Profile updates at milestones:** After each major framework milestone (completing a region, finishing a mechanism tree, or covering a nexus topic), update `profile/learning-profile.md` with what was covered, how the student performed, and any weak areas identified. This ensures progress is captured even if the student closes the session without saying "save".
 
+**Status line updates:** Keep `profile/.study-state` updated so the status bar reflects the current session state. Write it as `key=value` lines whenever the session state changes (new topic, new phase, new attempt). Keys:
+- `phase` — Framework, Card Drilling, Diagnostic, or Boards Practice
+- `topic` — current subject/topic (e.g., Glaucoma, Retinal Vascular Disease)
+- `pass` — Pass 1 Skeleton, Pass 2 Muscle, or Pass 3 Deep
+- `attempt` — current retrieval attempt (e.g., 2/4)
+
+Clear the file when the student says "save" to end the session.
+
 ### Type 2: Card Drilling Sessions
 
 Pure retrieval practice using cards from `cards/`. The student should have already completed a framework session on the topic. This session stress-tests whether the framework converted to retrievable knowledge.
