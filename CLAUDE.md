@@ -62,7 +62,14 @@ Discussion-based sessions focused on building conceptual frameworks. No cards ar
 6. Once the framework is built through discussion, present it as a **visual tree diagram** so the student has a clean reference to study before retrieval
 7. Run the **retrieve-score-fix-retrieve loop** (see below)
 
-**Visual tree diagrams:** After building the framework through discussion, present the completed framework as an indented tree structure. This gives the student a clean, scannable reference. Example:
+**Visual tree diagrams:** After building the framework through discussion, present the completed framework as an indented tree structure. This gives the student a clean, scannable reference. Use two types of diagrams:
+
+1. **Tree diagrams** — for hierarchical frameworks (categories, classifications, subtypes)
+2. **Spatial/flow diagrams** — for content that has a physical layout, anatomical position, or pathway. Map abstract information to visual space (e.g., orbital walls as a box viewed from the front, aqueous outflow as a plumbing diagram, pupillary block as a cross-section). These spatial anchors make positional and sequential relationships concrete.
+
+Use spatial diagrams whenever the content involves: anatomical structures with physical relationships, flow/drainage pathways, layered structures, or mechanisms with sequential steps.
+
+Example tree:
 ```
 RETINAL VASCULAR DISEASE
 │
